@@ -1,0 +1,25 @@
+{
+  "name": "beapp-dicoding",
+  "version": "1.0.0",
+  "description": "Membuat Aplikasi Back End Untuk Pemula Bersama Dicoding Menggunakan NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/refaldyrk/beapp-dicoding"
+  },
+  "author": "Refaldy Rizky Karim",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.3.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
